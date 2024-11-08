@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Page-1" id="OkumlEQfdbjrL7k12Pbs">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M0-h0GCKNA_lXGJkEwCb-1" value="#run the below command in command prompt, it will create a windows task schedular with every 15 mins it will trigger the application&#xa;#the below command must be executed in admin user &#xa;#in the below cmd replace &quot;&lt;refresher exe path with name&gt;&quot; refresher exe filename with path.&#xa;&#xa;&#xa;schtasks /create /sc minute /mo 15 /tn &quot;Refresher Task&quot; /tr &lt;refresher exe path with name&gt;&#xa;&#xa;&#xa;#run the below command, it will enable the task history to record all the task run details in the history&#xa;&#xa;&#xa;wevtuil set-log Microsoft-Windows-TaskSchedular/Operational /enabled:true" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="560" height="220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
